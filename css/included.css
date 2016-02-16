@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+.toolbar button {
+	height: 100px;
+}
+div.page,div.title,div.toolbar,div.content,div.operator,div.main,div.foot {
+	border: 1px solid red;
+}
+
+div.page {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	height: 800px;
+}
+
+div.title {
+	width: 1160px;
+	height: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.toolbar {
+	width: 1200px;
+	height: 100px;
+}
+
+div.content {
+	width: 1200px;
+	height: 600px;
+}
+
+div.operator {
+	float: left;
+	width: 250px;
+	height: 600px;
+}
+#sideBar button {
+	width: 180px;
+}
+
+div.main {
+	float: left;
+	width: 940px;
+	height: 600px;
+	overflow: scroll;
+}
+
+div.foot {
+	width: 1160px;
+	height: 65px;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#dialog_download_innerdiv {
+	text-align: center;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
